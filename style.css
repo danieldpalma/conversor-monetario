@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #e1e1e1;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+}
+
+
+.title {
+  text-align: center;
+  margin: 15px;
+}
+
+.conversor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conversor p {
+  font-size: 2rem;
+}
+
+select {
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
+
+.realBr {
+  display: block;
+  text-align: center;
+}
+
+.realBR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.realBR input {
+  width: 220px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.button_Converter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.button_Converter input {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(225, 225, 225, 1);
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+}
+
+.btn_Cleaner {
+  margin-left: 10px;
+  display: none;
+}
+
+.btn_Converter:hover {
+  background-color: #218838;
+  color: white;
+}
+
+.btn_Cleaner:hover {
+  background-color: #C82333;
+  color: white;
+}
+
+.show {
+  display: initial;
+}
+
+.finalResult {
+  text-align: center;
+  font-size: 3.2rem;
+  color: #e1e1e1;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    font-size: 1.4rem;
+  }
+  .conversor p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 321px) {
+  body {
+    font-size: 1.4rem;
+  }
+  
+  .conversor p {
+    font-size: 1rem;
+  }
+}
